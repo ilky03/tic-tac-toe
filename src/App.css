@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.infoAboutGame p {
+  margin: 20px;
+  font-size: 30px;
+  color: #666633;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  border: none;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.square:hover, .startBtn:hover {
+  cursor: pointer;
+}
+
+.winnerInfo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #666633;
+}
+
+.startBtn {
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button {
+  color: #7D7D3F;
+}
