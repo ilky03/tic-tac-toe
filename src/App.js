@@ -64,8 +64,13 @@ function Square({ value, onSquareClick }) {
 
 function WinnerInfo({ squares }) {
   const winnerStatus = isWinner(squares);
+ 
   if (winnerStatus) {
     return <p>Winner: {winnerStatus}</p>
+  } else if (!squares.includes(null)) { 
+    return <p>Draw</p>
+  } else {
+    return <p>Game is still on...</p>
   }
 }
 
